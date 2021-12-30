@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ikasana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-link" id="navlink">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="team.html">OUR TEAM</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class=" container ">
+            <h1>Glow up your spirit. </h1>
+            <h2>It will make you glow internally.</h2><br>
+            <p><a href="#jump " class="btn ">Scroll Down To Know More</a></p>
+        </div>
+    </section>
+    <section>
+        <div class="overveiw " id="jump">
+            <p class="img "><img src="img/overv.jpg " alt=" "></p>
+            <h1>Overview</h1>
+            <p class=" content ">
+                Ikasana is a foundation dedicated to bring a revolution in an individual's inner self by allowing them to engineer themselves, connect to a different dimension, to be able to identify with the whole world of advanced beings, and discover their actual
+                potential. It is dedicated to promoting world peace, not just among individuals. The foundation provides a number of initiatives to assist people in achieving mental, physical, and spiritual well-being. It intends to expand its offering
+                to the rest of the world by establishing branches all around the globe.
+
+            </p>
+
+        </div>
+
+        <div class="peace ">
+            <p class="img2 "><img src="img/content2.png " alt=" "></p>
+            <h1>Inner Peace</h1>
+            <p class="content2 ">
+                Inner peace (or peace of mind) refers to a deliberate state of psychological or spiritual calm despite the potential presence of stressors such as the burden arising from pretending to be someone. Being "at peace " is considered by many to be healthy
+                (homeostasis) and the opposite of being stressed or anxious, and is considered to be a state where our mind performs at an optimal level with a positive outcome. Peace of mind is thus generally associated with bliss, happiness and contentment.
+
+            </p>
+
+        </div>
+    </section>
+    <br>
+    <div class="footer ">
+        <img src="img/logo.png " alt=" ">
+        <p><a href=" "><i class="fab fa-facebook ">
+            </i></a>
+            <a href=" "><i class="fab fa-twitter-square "></i></a>
+            <a href=" "><i class="fab fa-instagram "></i></a>
+            <a href=" "><i class="fab fa-linkedin-in "></i></a></p>
+        <p><a href="mailto:info.ikasana@gmail.com "><i class="fas fa-envelope-square "></i>info.ikasana@gmail.com</a></p>
+
+        <p>&#9400; 2021-2022: Ikasana.com</p>
+
+
+    </div>
+    <script>
+        var navLink = document.getElementById("navlink");
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
